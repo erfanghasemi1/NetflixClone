@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  netflix:
+    image: ${DOCKER_REGISTRY-}netflix
+    build:
+      context: .
+      dockerfile: Netflix/Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=NetflixDb;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
+    depends_on:
+      - sqlserver
+
+  sqlserver:
+    # 1. Matches your local downloaded image tag exactly
+    image: mcr.microsoft.com/mssql/server:latest
+    
+    # 2. Forces Docker to use the local image instead of pulling
+    pull_policy: missing
+    
+    container_name: netflix_sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrongPassword123!
+    ports:
+      - "1433:1433"

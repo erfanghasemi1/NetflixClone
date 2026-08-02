@@ -1,0 +1,54 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Netflix.Data;
+using Netflix.Entities;
+using Netflix.Services.Interfaces;
+
+namespace Netflix.Services.Implementations
+{
+    public sealed class GenreImportService : IGenreImportService
+    {
+        private readonly ApplicationDbContext _db;
+        private readonly ITmdbService _tmdb;
+
+        public GenreImportService(ApplicationDbContext db, ITmdbService tmdb)
+        {
+            _db = db;
+            _tmdb = tmdb;
+        }
+
+        public async Task ImportMovieGenresAsync()
+        {
+            var response = await _tmdb.GetMovieGenresAsync();
+            await UpsertGenresAsync(response.Genres);
+        }
+
+        public async Task ImportTvGenresAsync()
+        {
+            var response = await _tmdb.GetTvGenresAsync();
+            await UpsertGenresAsync(response.Genres);
+        }
+
+        private async Task UpsertGenresAsync(List<DTOs.Tmdb.GenreDto> genres)
+        {
+            var existingTmdbIds = (await _db.Genres
+                .Select(g => g.TmdbGenreId)
+                .ToListAsync())
+                .ToHashSet();
+
+            foreach (var dto in genres)
+            {
+                if(!existingTmdbIds.Contains(dto.Id))
+                {
+                    _db.Genres.Add(new Genre
+                    {
+                        Name = dto.Name,
+                        TmdbGenreId = dto.Id
+                    });
+
+                }
+            }
+
+            await _db.SaveChangesAsync();
+        }
+    }
+}
