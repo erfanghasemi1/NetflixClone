@@ -136,7 +136,7 @@
               "RelativeDocumentMoniker": "Netflix\\.gitignore",
               "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\.gitignore",
               "RelativeToolTip": "Netflix\\.gitignore",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAIwG0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwG4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-08-02T11:23:27.651Z",
               "EditorCaption": ""
@@ -151,8 +151,7 @@
               "RelativeToolTip": "Netflix\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-02T11:19:55.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-02T11:19:55.696Z"
             },
             {
               "$type": "Document",
@@ -164,8 +163,7 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-01T16:13:53.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T16:13:53.067Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\ImportOrchestrator.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:32:37.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:32:37.045Z"
             },
             {
               "$type": "Document",
@@ -214,8 +211,7 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\MediaImportService.cs",
               "ViewState": "AgIAAPoAAAAAAAAAAAAkwAkBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:15:15.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:15:15.113Z"
             },
             {
               "$type": "Document",
@@ -227,8 +223,7 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\GenreImportService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:11:44.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:11:44.702Z"
             },
             {
               "$type": "Document",
@@ -276,8 +271,7 @@
               "RelativeToolTip": "Netflix\\Configurations\\ImportOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:26:42.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T14:26:42.055Z"
             },
             {
               "$type": "Document",
@@ -301,8 +295,7 @@
               "RelativeToolTip": "Netflix\\Configurations\\TmdbOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T13:52:19.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T13:52:19.708Z"
             },
             {
               "$type": "Document",
@@ -314,8 +307,7 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\TmdbService.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAADwv30AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T13:45:00.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T13:45:00.045Z"
             },
             {
               "$type": "Document",
@@ -387,8 +379,7 @@
               "RelativeToolTip": "Netflix\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T05:23:15.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T05:23:15.789Z"
             },
             {
               "$type": "Document",
@@ -400,8 +391,7 @@
               "RelativeToolTip": "Netflix\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-01T05:22:16.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T05:22:16.845Z"
             },
             {
               "$type": "Document",

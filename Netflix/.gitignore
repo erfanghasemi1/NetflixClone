@@ -1,13 +1,53 @@
-## .NET
+# ======================================================================
+# 1. Secrets, Environment & Local Settings
+# ======================================================================
+.env
+.env.*
+secrets.json
+appsettings.Local.json
+!appsettings.json
+!appsettings.Development.json
+*.pfx
+*.key
+
+# ======================================================================
+# 2. Build Outputs, Binaries & Docker Cache
+# ======================================================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
 bin/
 obj/
+out/
+publish/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ======================================================================
+# 3. Visual Studio, Rider & IDE Caches
+# ======================================================================
+.vs/
+.idea/
 *.user
 *.userosscache
 *.suo
 *.userprefs
-*.pidb
-*.booproj
-*.svd
+*.rsuser
+*.sln.docstates
+*.sln.iml
+
+# ======================================================================
+# 4. Compiled Files & Databases
+# ======================================================================
 *.pdb
 *.mdb
 *.opendb
@@ -34,36 +74,14 @@ obj/
 *.pidb
 *.svclog
 *.scc
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.publishsettings
 
-## Visual Studio
-.vs/
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-## Rider / JetBrains
-.idea/
-*.sln.iml
-
-## Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-
-## NuGet
+# ======================================================================
+# 5. NuGet & Packages
+# ======================================================================
 *.nupkg
 *.snupkg
 **/[Pp]ackages/*
@@ -71,40 +89,23 @@ bld/
 *.nuget.props
 *.nuget.targets
 
-## Publish
-publish/
-out/
-
-## Secrets & local settings
-appsettings.Development.json
-appsettings.*.json
-!appsettings.json
-.env
-.env.*
-*.pfx
-*.key
-secrets.json
-
-## Docker
+# ======================================================================
+# 6. Docker Overrides & OS Files
+# ======================================================================
+docker-compose.override.yml
 **/docker-compose.override.yml
-
-## OS files
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-## Test & coverage
+# ======================================================================
+# 7. Test Results & Dependencies
+# ======================================================================
 TestResults/
 [Tt]est[Rr]esult*/
 *.trx
 *.coverage
 *.coveragexml
 coverage*/
-
-## Miscellaneous
-*.dbmdl
-*.dbproj.schemaview
-*.jfm
-*.publishsettings
 node_modules/
