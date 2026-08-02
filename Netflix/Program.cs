@@ -35,6 +35,7 @@ builder.Services.AddHttpClient<ITmdbService, TmdbService>();
 builder.Services.AddScoped<IGenreImportService, GenreImportService>();
 builder.Services.AddScoped<IMediaImportService, MediaImportService>();
 builder.Services.AddScoped<IImportOrchestrator, ImportOrchestrator>();
+builder.Services.AddScoped<IGetMediaSample, GetMediaSample>();
 
 var app = builder.Build();
 

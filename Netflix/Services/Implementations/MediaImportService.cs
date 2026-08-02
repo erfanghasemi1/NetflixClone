@@ -161,9 +161,9 @@ namespace Netflix.Services.Implementations
         /// Reduces SQL queries from ~100 per page to just 2-3 queries total.
         /// </summary>
         private async Task ProcessPageBatchAsync(
-    List<MediaDto> dtos,
-    int mediaTypeId,
-    Dictionary<int, int> genreMap)
+            List<MediaDto> dtos,
+            int mediaTypeId,
+            Dictionary<int, int> genreMap)
         {
             // 1. Deduplicate TMDb items coming in from the API page itself
             var distinctDtos = dtos

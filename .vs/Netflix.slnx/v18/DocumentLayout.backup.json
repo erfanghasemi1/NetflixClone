@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "E:\\NetflixProject\\Netflix\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|e:\\netflixproject\\netflix\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\implementations\\getmediasample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\services\\implementations\\getmediasample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\entities\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\interfaces\\igetmediasample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\services\\interfaces\\igetmediasample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\stats\\mediasampledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\stats\\mediasampledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\stats\\tablestatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\stats\\tablestatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\stats\\genrestatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\stats\\genrestatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\mediaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\mediaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\genreresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\genreresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\implementations\\mediaimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\services\\implementations\\mediaimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -23,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\configurations\\importoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\configurations\\tmdboptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\configurations\\tmdboptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\implementations\\mediaimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\services\\implementations\\mediaimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\implementations\\genreimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|e:\\netflixproject\\netflix\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\services\\interfaces\\itmdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,32 +127,8 @@
       "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\enums\\tmdbsorttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\mediaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\mediaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\mediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\genreresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\genreresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\dtos\\tmdb\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\dtos\\tmdb\\genredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\entities\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\mediagenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\entities\\mediagenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|solutionrelative:netflix\\entities\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45EFFD5D-9AA6-6EB0-EAE5-A241F78733CA}|Netflix\\Netflix.csproj|e:\\netflixproject\\netflix\\netflix\\entities\\importhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +150,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 218,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -131,19 +159,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-08-02T20:36:28.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetMediaSample.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\GetMediaSample.cs",
+              "RelativeDocumentMoniker": "Netflix\\Services\\Implementations\\GetMediaSample.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\GetMediaSample.cs",
+              "RelativeToolTip": "Netflix\\Services\\Implementations\\GetMediaSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T19:15:32.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGetMediaSample.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\IGetMediaSample.cs",
+              "RelativeDocumentMoniker": "Netflix\\Services\\Interfaces\\IGetMediaSample.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\IGetMediaSample.cs",
+              "RelativeToolTip": "Netflix\\Services\\Interfaces\\IGetMediaSample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T19:14:28.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "Netflix\\Controllers\\StatsController.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "Netflix\\Controllers\\StatsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T18:27:12.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TableStatsDto.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\TableStatsDto.cs",
+              "RelativeDocumentMoniker": "Netflix\\DTOs\\Stats\\TableStatsDto.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\TableStatsDto.cs",
+              "RelativeToolTip": "Netflix\\DTOs\\Stats\\TableStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T18:26:01.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MediaSampleDto.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\MediaSampleDto.cs",
+              "RelativeDocumentMoniker": "Netflix\\DTOs\\Stats\\MediaSampleDto.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\MediaSampleDto.cs",
+              "RelativeToolTip": "Netflix\\DTOs\\Stats\\MediaSampleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T17:48:15.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenreStatsDto.cs",
+              "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\GenreStatsDto.cs",
+              "RelativeDocumentMoniker": "Netflix\\DTOs\\Stats\\GenreStatsDto.cs",
+              "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Stats\\GenreStatsDto.cs",
+              "RelativeToolTip": "Netflix\\DTOs\\Stats\\GenreStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T17:46:40.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\.gitignore",
               "RelativeDocumentMoniker": "Netflix\\.gitignore",
               "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\.gitignore",
               "RelativeToolTip": "Netflix\\.gitignore",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAIwG0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwG4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-02T11:23:27.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-02T11:23:27.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Netflix\\appsettings.Development.json",
@@ -151,12 +264,11 @@
               "RelativeToolTip": "Netflix\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-02T11:19:55.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-02T11:19:55.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -164,12 +276,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-08-01T16:13:53.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T16:13:53.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -181,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ImportController.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Controllers\\ImportController.cs",
               "RelativeDocumentMoniker": "Netflix\\Controllers\\ImportController.cs",
@@ -193,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "ImportOrchestrator.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\ImportOrchestrator.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Implementations\\ImportOrchestrator.cs",
@@ -201,25 +312,23 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\ImportOrchestrator.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:32:37.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:32:37.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "MediaImportService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\MediaImportService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Implementations\\MediaImportService.cs",
               "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\MediaImportService.cs",
               "RelativeToolTip": "Netflix\\Services\\Implementations\\MediaImportService.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAkwAkBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAADwv6UAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:15:15.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:15:15.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "GenreImportService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\GenreImportService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Implementations\\GenreImportService.cs",
@@ -227,12 +336,11 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\GenreImportService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:11:44.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T15:11:44.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "IImportOrchestrator.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\IImportOrchestrator.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Interfaces\\IImportOrchestrator.cs",
@@ -244,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "IMediaImportService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\IMediaImportService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Interfaces\\IMediaImportService.cs",
@@ -256,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "IGenreImportService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\IGenreImportService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Interfaces\\IGenreImportService.cs",
@@ -268,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "ImportOptions.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Configurations\\ImportOptions.cs",
               "RelativeDocumentMoniker": "Netflix\\Configurations\\ImportOptions.cs",
@@ -276,12 +384,11 @@
               "RelativeToolTip": "Netflix\\Configurations\\ImportOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:26:42.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T14:26:42.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "TmdbSortType.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Enums\\TmdbSortType.cs",
               "RelativeDocumentMoniker": "Netflix\\Enums\\TmdbSortType.cs",
@@ -293,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "TmdbOptions.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Configurations\\TmdbOptions.cs",
               "RelativeDocumentMoniker": "Netflix\\Configurations\\TmdbOptions.cs",
@@ -301,12 +408,11 @@
               "RelativeToolTip": "Netflix\\Configurations\\TmdbOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T13:52:19.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T13:52:19.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "TmdbService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Implementations\\TmdbService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Implementations\\TmdbService.cs",
@@ -314,12 +420,11 @@
               "RelativeToolTip": "Netflix\\Services\\Implementations\\TmdbService.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAADwv30AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T13:45:00.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T13:45:00.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "ITmdbService.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Services\\Interfaces\\ITmdbService.cs",
               "RelativeDocumentMoniker": "Netflix\\Services\\Interfaces\\ITmdbService.cs",
@@ -331,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "MediaResponseDto.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Tmdb\\MediaResponseDto.cs",
               "RelativeDocumentMoniker": "Netflix\\DTOs\\Tmdb\\MediaResponseDto.cs",
@@ -343,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 12,
               "Title": "MediaDto.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Tmdb\\MediaDto.cs",
               "RelativeDocumentMoniker": "Netflix\\DTOs\\Tmdb\\MediaDto.cs",
@@ -355,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "GenreResponseDto.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Tmdb\\GenreResponseDto.cs",
               "RelativeDocumentMoniker": "Netflix\\DTOs\\Tmdb\\GenreResponseDto.cs",
@@ -367,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 14,
               "Title": "GenreDto.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\DTOs\\Tmdb\\GenreDto.cs",
               "RelativeDocumentMoniker": "Netflix\\DTOs\\Tmdb\\GenreDto.cs",
@@ -379,20 +484,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Program.cs",
               "RelativeDocumentMoniker": "Netflix\\Program.cs",
               "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Program.cs",
               "RelativeToolTip": "Netflix\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-01T05:23:15.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\appsettings.json",
               "RelativeDocumentMoniker": "Netflix\\appsettings.json",
@@ -400,12 +505,11 @@
               "RelativeToolTip": "Netflix\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-01T05:22:16.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T05:22:16.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "ImportHistory.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\ImportHistory.cs",
               "RelativeDocumentMoniker": "Netflix\\Entities\\ImportHistory.cs",
@@ -417,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "MediaGenre.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\MediaGenre.cs",
               "RelativeDocumentMoniker": "Netflix\\Entities\\MediaGenre.cs",
@@ -429,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "Genre.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\Genre.cs",
               "RelativeDocumentMoniker": "Netflix\\Entities\\Genre.cs",
@@ -441,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "MediaType.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\MediaType.cs",
               "RelativeDocumentMoniker": "Netflix\\Entities\\MediaType.cs",
@@ -453,19 +557,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
               "Title": "Media.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\Media.cs",
               "RelativeDocumentMoniker": "Netflix\\Entities\\Media.cs",
               "ToolTip": "E:\\NetflixProject\\Netflix\\Netflix\\Entities\\Media.cs",
               "RelativeToolTip": "Netflix\\Entities\\Media.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-01T05:06:40.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "ApplicationDbContexxt.cs",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Data\\ApplicationDbContexxt.cs",
               "RelativeDocumentMoniker": "Netflix\\Data\\ApplicationDbContexxt.cs",
@@ -477,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "Netflix.csproj",
               "DocumentMoniker": "E:\\NetflixProject\\Netflix\\Netflix\\Netflix.csproj",
               "RelativeDocumentMoniker": "Netflix\\Netflix.csproj",
