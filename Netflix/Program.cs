@@ -36,6 +36,7 @@ builder.Services.AddScoped<IGenreImportService, GenreImportService>();
 builder.Services.AddScoped<IMediaImportService, MediaImportService>();
 builder.Services.AddScoped<IImportOrchestrator, ImportOrchestrator>();
 builder.Services.AddScoped<IGetMediaSample, GetMediaSample>();
+builder.Services.AddScoped<ISearchMedia, SearchMedia>();
 
 var app = builder.Build();
 
@@ -57,7 +58,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     try
     {
-        var context = services.GetRequiredService<ApplicationDbContext>(); // Replace with your actual DbContext class name
+        var context = services.GetRequiredService<ApplicationDbContext>();
         context.Database.Migrate(); // This applies all pending migrations to the database
     }
     catch (Exception ex)
