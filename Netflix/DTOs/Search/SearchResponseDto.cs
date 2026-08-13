@@ -1,5 +1,13 @@
 ﻿namespace Netflix.DTOs.Search
 {
+
+    /// <summary>
+    /// Data Transfer Object representing the media information returned to the client 
+    /// after a search operation, containing core details such as identity, titles, 
+    /// visual asset paths, release dates, popularity metrics, and associated genre identifiers.
+    /// </summary>
+
+
     public class SearchResponseDto
     {
         public long Id { get; set; }

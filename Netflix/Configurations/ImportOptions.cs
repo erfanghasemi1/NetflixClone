@@ -1,6 +1,13 @@
 ﻿namespace Netflix.Configurations
 {
-
+    /// <summary>
+    /// Represents the configuration options for importing data from the TMDB API.
+    /// This class is used to control which data to retrieve and how much of it to fetch.
+    /// </summary>
+    /// <remarks>
+    /// This class is typically bound to the <c>Import</c> section in appsettings.json.
+    /// It is marked as <see langword="sealed"/> to prevent inheritance.
+    /// </remarks>
     public sealed class ImportOptions
     {
         public const string SectionName = "Import";

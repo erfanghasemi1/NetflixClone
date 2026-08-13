@@ -5,6 +5,14 @@ using Netflix.Services.Interfaces;
 
 namespace Netflix.Services.Implementations
 {
+
+    /// <summary>
+    /// A sealed service responsible for synchronizing genre data between the TMDB API and the local database.
+    /// It fetches movie and TV genres, identifies new genres by comparing TMDB identifiers, 
+    /// and performs an upsert operation to ensure the local genre repository is up to date without duplicates.
+    /// </summary>
+
+
     public sealed class GenreImportService : IGenreImportService
     {
         private readonly ApplicationDbContext _db;
@@ -28,6 +36,12 @@ namespace Netflix.Services.Implementations
             await UpsertGenresAsync(response.Genres);
 
         }
+
+
+        /// <summary>
+        /// Compares a list of TMDB genre data against existing database records and adds missing genres 
+        /// based on their unique TMDB identifier before saving changes.
+        /// </summary>
 
         private async Task UpsertGenresAsync(List<DTOs.Tmdb.GenreDto> genres)
         {

@@ -4,6 +4,14 @@ using Netflix.Services.Interfaces;
 
 namespace Netflix.Services.Implementations
 {
+
+
+    /// <summary>
+    /// Coordinates the end-to-end data synchronization process by managing the execution order 
+    /// of genre and media imports while logging the operation's progress, start/end times, 
+    /// and final status (Running, Completed, or Failed) into the import history tracking system.
+    /// </summary>
+
     public sealed class ImportOrchestrator : IImportOrchestrator
     {
         private readonly ApplicationDbContext _db;
@@ -19,6 +27,13 @@ namespace Netflix.Services.Implementations
             _genreImport = genreImport;
             _mediaImport = mediaImport;
         }
+
+
+        /// <summary>
+        /// Executes a full import cycle which includes fetching movie and TV genres followed by 
+        /// media discovery and genre-based imports, ensuring all steps are wrapped in a 
+        /// monitored history log that captures success or failure.
+        /// </summary>
 
         public async Task ImportAllAsync()
         {

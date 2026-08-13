@@ -8,6 +8,7 @@ services:
       dockerfile: Netflix/Dockerfile
     ports:
       - "5000:8080"
+      - "6000:8081"
     environment:
       - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=NetflixDb;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
     depends_on:

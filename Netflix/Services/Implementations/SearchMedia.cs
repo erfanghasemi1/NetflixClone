@@ -6,6 +6,13 @@ using Netflix.Entities;
 
 namespace Netflix.Services.Implementations
 {
+
+    /// <summary>
+    /// A service responsible for querying and filtering media records from the database
+    /// based on user-provided search criteria, including content type, genre, minimum rating,
+    /// and release year, while delegating result ordering to a dedicated sorting method.
+    /// </summary>
+    
     public class SearchMedia : ISearchMedia
     {
         private readonly ApplicationDbContext _db;
@@ -14,6 +21,12 @@ namespace Netflix.Services.Implementations
         {
             _db = db;
         }
+
+        /// <summary>
+        /// Builds and executes a dynamic database query based on the provided search criteria,
+        /// applying optional filters for rating, content type, release year, and genres,
+        /// then returns the sorted results mapped to a list of search response DTOs.
+        /// </summary>
 
         public async Task<List<SearchResponseDto>> SearchAsync(SearchRequestDto request)
         {
@@ -60,6 +73,14 @@ namespace Netflix.Services.Implementations
                 GenresId = m.MediaGenres.Select(mg => mg.GenreId).ToList()
             }).ToListAsync();
         }
+
+        /// <summary>
+        /// Sorts the media query based on the search text relevance when provided, applying
+        /// a weighted scoring system that prioritizes exact title matches (5), partial title 
+        /// matches (4), and overview matches (3), followed by popularity, vote average, and 
+        /// vote count as tiebreakers. Falls back to sorting purely by popularity, vote average,
+        /// and vote count when no search text is present.
+        /// </summary>
 
         public IOrderedQueryable<Media> SortMediaAsync(
             IQueryable<Media> result, SearchRequestDto request)

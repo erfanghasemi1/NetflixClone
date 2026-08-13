@@ -10,6 +10,13 @@ using Netflix.Services.Interfaces;
 
 namespace Netflix.Services.Implementations
 {
+
+    /// <summary>
+    /// A sealed service responsible for importing media data from the TMDB API into the local database.
+    /// Supports genre-based and discovery-based imports for both movies and TV series,
+    /// controlled by the configured import options.
+    /// </summary>
+    
     public sealed class MediaImportService : IMediaImportService
     {
         private readonly ApplicationDbContext _db;
@@ -29,6 +36,13 @@ namespace Netflix.Services.Implementations
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// Imports movies from the TMDB API organized by genre, iterating through all 
+        /// available sort types and configured pages per genre, then persists the results 
+        /// to the database if movie importing is enabled.
+        /// </summary>
+
         public async Task ImportMoviesByGenreAsync()
         {
             if (!_options.ImportMovies) return;
@@ -44,6 +58,12 @@ namespace Netflix.Services.Implementations
 
             _logger.LogInformation("[IMPORT] Movies Imported By Genre Successfully!");
         }
+
+        /// <summary>
+        /// Imports TV series from the TMDB API organized by genre, iterating through all 
+        /// available sort types and configured pages per genre, then persists the results 
+        /// to the database if TV series importing is enabled.
+        /// </summary>
 
         public async Task ImportTvSeriesByGenreAsync()
         {
@@ -61,6 +81,13 @@ namespace Netflix.Services.Implementations
             _logger.LogInformation("[IMPORT] TV Series Imported By Genre Successfully!");
         }
 
+
+        /// <summary>
+        /// Imports movies from the TMDB Discover endpoint, iterating through all available 
+        /// sort types and configured discover pages, then persists the results to the database 
+        /// if movie importing is enabled.
+        /// </summary>
+
         public async Task ImportDiscoverMoviesAsync()
         {
             if (!_options.ImportMovies) return;
@@ -74,6 +101,12 @@ namespace Netflix.Services.Implementations
             _logger.LogInformation("[IMPORT] Movies Imported By Discover Successfully!");
         }
 
+        /// <summary>
+        /// Imports TV series from the TMDB Discover endpoint, iterating through all available 
+        /// sort types and configured discover pages, then persists the results to the database 
+        /// if TV series importing is enabled.
+        /// </summary>
+
         public async Task ImportDiscoverTvSeriesAsync()
         {
             if (!_options.ImportTvSeries) return;
@@ -86,6 +119,12 @@ namespace Netflix.Services.Implementations
 
             _logger.LogInformation("[IMPORT] TV Series Imported By Discover Successfully!");
         }
+
+        /// <summary>
+        /// Iterates through each genre and all sort types, fetching paginated results from 
+        /// the TMDB API using the provided delegate, and processes each page as a batch 
+        /// to minimize database round trips.
+        /// </summary>
 
         private async Task ImportByGenreAsync(
             List<Genre> genres,
@@ -125,6 +164,12 @@ namespace Netflix.Services.Implementations
             }
         }
 
+        /// <summary>
+        /// Iterates through all sort types and fetches paginated results from the TMDB Discover 
+        /// endpoint using the provided delegate, processing each page as a batch to minimize 
+        /// database round trips.
+        /// </summary>
+
         private async Task ImportDiscoverAsync(
             int mediaTypeId,
             Func<TmdbSortType, int, Task<MediaResponseDto>> getPage)
@@ -157,8 +202,10 @@ namespace Netflix.Services.Implementations
         }
 
         /// <summary>
-        /// Processes an entire page of results in a SINGLE batch operation.
-        /// Reduces SQL queries from ~100 per page to just 2-3 queries total.
+        /// Processes an entire page of results in a single batch operation by deduplicating 
+        /// incoming TMDB items, identifying and inserting missing media records, then resolving 
+        /// and inserting any missing genre relationships, all while minimizing database queries 
+        /// to approximately 2 to 3 per page regardless of result size.
         /// </summary>
         private async Task ProcessPageBatchAsync(
             List<MediaDto> dtos,

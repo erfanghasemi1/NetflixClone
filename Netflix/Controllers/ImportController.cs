@@ -15,9 +15,15 @@ namespace Netflix.Controllers
         }
 
         /// <summary>
-        /// One-Time endpoint to import all data from TMDB
-        /// Call it when you wanna populate database
+        /// API Controller responsible for handling data import operations from the TMDB API.
         /// </summary>
+        /// <remarks>
+        /// This controller acts as the entry point for triggering import processes.
+        /// It delegates the actual import logic to <see cref="IImportOrchestrator"/>.
+        /// <para>
+        /// Base route: <c>api/import</c>
+        /// </para>
+        /// </remarks>
 
         [HttpPost("all")]
         public async Task<IActionResult> ImportAll()

@@ -2,6 +2,15 @@
 
 namespace Netflix.DTOs.Search
 {
+
+    /// <summary>
+    /// Represents the search criteria submitted by the user when querying media,
+    /// including an optional search text, content type, list of genre identifiers,
+    /// minimum rating (0 to 10), and release year (1900 to 2100), where the rating
+    /// and release year values are validated against their allowed ranges.
+    /// </summary>
+    
+
     public class SearchRequestDto
     {
         public string? SearchText { get; set; }
