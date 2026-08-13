@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer components {
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-purple-400 rounded-full hover:bg-purple-500;
+  }
+
+  /* Smooth transitions */
+  * {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  /* Glass morphism effect */
+  .glass {
+    @apply backdrop-blur-md bg-white/80 border border-white/20;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
+  }
+}
