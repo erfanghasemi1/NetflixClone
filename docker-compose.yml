@@ -1,0 +1,58 @@
+version: '3.4'
+
+services:
+  # ================================
+  # React Frontend (nginx-served)
+  # ================================
+  frontend:
+    image: ${DOCKER_REGISTRY-}netflix-frontend
+    container_name: netflix_frontend
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - netflix
+    restart: unless-stopped
+
+  # ================================
+  # ASP.NET Backend API
+  # ================================
+  netflix:
+    image: ${DOCKER_REGISTRY-}netflix
+    container_name: netflix_backend
+    build:
+      context: ./Backend
+      dockerfile: Netflix/Dockerfile
+    ports:
+      - "5000:8080"
+      - "6000:8081"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=NetflixDb;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
+    depends_on:
+      - sqlserver
+    restart: unless-stopped
+
+  # ================================
+  # MSSQL Server Database
+  # ================================
+  sqlserver:
+    # 1. Matches your local downloaded image tag exactly
+    image: mcr.microsoft.com/mssql/server:latest
+
+    # 2. Forces Docker to use the local image instead of pulling
+    pull_policy: missing
+
+    container_name: netflix_sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrongPassword123!
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql
+    restart: unless-stopped
+
+volumes:
+  mssql_data:
